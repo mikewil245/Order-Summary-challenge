@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:#D8F2FF;
+background-image: url(pattern-background-desktop.svg);
+background-size: contain;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+    h4{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 15px;}
+        
+        .change{
+            text-decoration: underline;
+        }
+
+        .cancel{
+            margin-left: 35px;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+        button{
+            font-family: 'Red Hat Display', sans-serif;
+            background-color:  hsl(245, 75%, 52%);
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            color: white;
+            width: 250px;
+            text-align: center;
+            margin-left: 45px;
+        }
+
+        .payment{
+            width: 366px;
+            height: 146px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Red Hat Display', sans-serif;
+            color: beige;
+            font-size: 10px;
+           
+        }
+       
+
+   .parent-container{
+    max-width: 700.5px;
+    margin-top: 30px;
+    height: 580px;
+    background-color: white;
+    
+    border-radius:10px;
+}
+.main-header{
+    font-family: 'Red Hat Display', sans-serif;
+    color: #202A44;
+    
+}
+    .order-description{
+        color: #808080;
+       
+    }
+    
+    .header-section{
+        width:445px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .order-description{
+        width: 296px;
+        height: 71px;
+        text-align: center;
+    }
+
+    .cost-section{
+         width: 400px;
+        height: 100px;
+        background-color: hsl(225, 100%, 98%);
+        border: 1px;
+        border-radius: 10px;
+       display: flex;
+       justify-content: space-evenly;
+       margin-left: 25px;
+       align-items: center;}
+
+       .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .main-photo{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+   
